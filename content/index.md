@@ -1,17 +1,16 @@
 ---
 title: Home
 ---
-This is an example of a code block below.
 
-```python
-def foo(bar: int) -> int:
-    """Returns an integer.
-    """
-    print(f"{bar}")
-    return bar + 1
-```
+I am a Ph.D. researcher & engineer working in the machine learning & AI space, and working in startups & industry since 2017. I've published works ranging from federated learning to compressed sensing, built products large and small, led technical teams large and small. 
 
-And this is an example where I use LaTeX, e.g. when $F = ma$, and from there I need to calculate
+Here, you can find works, notes, thoughts, and information sharing. 
 
-$$\mathcal{L}[x, \theta] = \lVert f_\theta(x)  \rVert_2^2$$
+## Socials
 
+You can find me in the following venues.
+
+- [@github](https://github.com/eric-tramel)
+- [@x.com](https://x.com/fujikanaeda)
+- [@google.scholar](https://scholar.google.com/citations?user=jre2iwMAAAAJ&hl=en)
+- [@linkedin](https://www.linkedin.com/in/erictramel/)

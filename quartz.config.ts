@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🖋 Eric W. Tramel",
+    pageTitle: "Eric W. Tramel",
     pageTitleSuffix: " ", 
     enableSPA: true,
     enablePopovers: true,
@@ -30,27 +30,27 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f4f1e0",             // Background with a parchment-like feel
+          lightgray: "#d9d2c4",         // Soft borders reminiscent of aged paper
+          gray: "#a09a8e",              // Graph links and heavier borders in a muted gray
+          darkgray: "#4f4b45",          // Body text in a slightly warmer, ink-like dark gray
+          dark: "#2f2c28",              // Header text and icons in a deeper brownish-gray
+          secondary: "#5b4d3a",         // Link color in a subtle brown
+          tertiary: "#927b61",          // Hover states in a warm, aged-paper accent color
+          highlight: "rgba(144, 134, 121, 0.2)", // Soft highlight with a translucent parchment shade
+          textHighlight: "#fff5a488",   // Highlighted text with a warm yellowish overlay
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
+          light: "#1e1e1c",               // Background with a deep, muted charcoal tone
+          lightgray: "#3c3a36",           // Soft borders in a warm, dark taupe
+          gray: "#646056",                // Graph links and heavier borders in a medium warm gray
+          darkgray: "#bcb8ae",            // Body text in a softer, off-white for comfortable reading
+          dark: "#e8e5de",                // Header text and icons in a light parchment-inspired tone
+          secondary: "#9a8c7e",           // Link color in a warm, desaturated brown
+          tertiary: "#7f7263",            // Hover states in a dark, sepia-toned accent color
+          highlight: "rgba(102, 93, 82, 0.2)", // Soft highlight with a translucent warm gray overlay
+          textHighlight: "#e3c17688",     // Highlighted text with a muted, warm gold overlay
+        }
       },
     },
   },
@@ -62,7 +62,7 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "catppuccin-frappe",
+          light: "catppuccin-latte",
           dark: "catppuccin-mocha",
         },
         keepBackground: false,
